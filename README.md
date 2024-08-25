@@ -1,3 +1,5 @@
+[![Open in Jupyter](https://img.shields.io/badge/Open%20in-Jupyter-blue.svg?logo=jupyter)](https://github.com/Ender17133/NLP_pipeline/blob/main/NLP.ipynb)
+
 This assignment will focus primarily on the design, creation, and deployment of `functions`. This assignment will require to create a series of functions together will be used as a crude NLP pipeline that cleans text data, structures the data for analysis, then calculates the `tf-idf` scores for a series of documents. The tf-idf metric is used to calculate the importance of a word to a document. Specifically, it measures the importance of a word in a document while discounting its value if it is used very frequently in all documents. For example the word "the" is probably used a lot in a given document, but it is also used a lot in most documents, so should not be considered important.
 
 The functions should be created for in `both R and Python`.
