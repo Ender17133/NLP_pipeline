@@ -168,7 +168,7 @@ print(clean_text("This is a test    sentence!"))
     [1] "THIS IS A TEST SENTENCE"
     
 
-##2. Create the function tokenize (12.5 pts)
+## 2. Create the function tokenize (12.5 pts)
 @tokenize(text: str)
   - Turns a string of text data into a list of words
   - Arguments: text str representing a string of text data
@@ -323,7 +323,7 @@ print(corp)
     
     
 
-##4. Create the function term_frequency (12.5 pts)
+## 4. Create the function term_frequency (12.5 pts)
 
 
 @term_frequency(list_of_text: list)
@@ -425,7 +425,7 @@ print(tf)
     
     
 
-##5. Create the function inverse_document_frequency (12.5 pts)
+## 5. Create the function inverse_document_frequency (12.5 pts)
 
 @inverse_document_frequency(list_of_text: list)
   - Takes a list of strings and computes a word count saved in a  dictionary. The dictionary should have keys that relate to a token (e.g. word) and the value should be the inverse document frequency of that word
@@ -764,7 +764,7 @@ for (i in tfidf_pipeline(text)) {
     0.0000000 0.1386294 0.1386294 0.1386294 0.1386294 
     
 
-##8. Run the pipeline on the following corpus (12.5 pts)
+## 8. Run the pipeline on the following corpus (12.5 pts)
 - What are some of the words with the highest tfidf in each document? You do not need to program this, you can merely look at the results. Note that because we have a small number of documents, many words will have the highest scores. Explain why some of these have the highest scores.
 
 Answer:
